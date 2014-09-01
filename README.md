@@ -13,5 +13,5 @@ The following are some of the features of my-theme
 * 2 sample CSS layouts in `layouts/` for a sidebar on either side of your content.
 * Smartly organized starter CSS in `style.css` that will help you to quickly get your design off the ground.
 * Licensed under GPLv2 or later. :) Use it to make something cool.
-*It's named my-theme because it really works the way you want it to! Now that's cool.
+* It's named my-theme because it really works the way you want it to! Now that's cool.
 
