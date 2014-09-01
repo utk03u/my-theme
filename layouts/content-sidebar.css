@@ -1,0 +1,139 @@
+/*
+Theme Name: utkblog
+Layout: Content-Sidebar
+*/
+
+.site-main {
+    padding-bottom: 4em;
+    background: #fff;
+}
+.single .site-content,
+.page .site-content { 
+    background: #fff; 
+    background: hsl(0, 0%, 100%);
+}
+
+.site-content .widget-area {
+    width: 380px;
+    float: right;
+    padding: 4rem;
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+    border-left:1px solid #e5e5e5;
+}
+.site-footer {
+    clear: both;
+    width: 100%;
+}
+
+.entry-header,
+.entry-content,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation,
+.entry-summary,
+.page-header {
+    position: relative;
+    max-width: 780px;
+    max-width: 78rem;
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+
+.index-box{
+    max-width: 780px;
+    max-width: 78rem;
+    padding: 1em 0 2em;
+    margin: 0 auto 2em;
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+    border: 1px solid #e5e5e5;
+}
+.meta-content{
+    max-width: 780px;
+    max-width: 78rem;
+    padding: 1em 0 2em;
+    margin: 0 auto 2em;
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+    border: 1px solid #fff;}
+
+.index-box blockquote.alignleft,
+.index-box blockquote.alignright {
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+    border: none;
+}
+
+@media screen and (min-width: 1820px) {
+    .index-box blockquote.alignright { padding-right: 2em; }
+}
+
+@media screen and (min-width: 1320px) {
+    .index-box blockquote.alignleft { padding-left: 2em; }
+}
+
+@media screen and (min-width: 1540px) {
+    .content-area {
+        float: left;
+        width: 100%;
+        margin-right: -380px;
+    }
+}
+
+@media screen and (min-width: 1160px) and (max-width: 1539px) {
+    .content-area {
+        width: 100%;
+        float: left;
+        margin-left: -380px;
+        padding-left: 380px;
+    }
+    
+    .entry-header,
+    .entry-content,
+    .entry-footer,
+    .tag-links,
+    .post-navigation,
+    .comments-area,
+    .paging-navigation,
+    .entry-summary,
+    .page-header,author-description,.meta-content{ 
+        margin-right: 0; 
+    }
+    
+}
+
+@media screen and (max-width: 1159px) {  
+    .site-content .widget-area {
+        width: auto;
+        max-width: 780px;
+        float: none;
+        margin: 1em auto 0;
+    }
+    
+  
+}
+
+.page-header
+.paging-navigation {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    list-style-type: none;
+    background: #fff;
+    display:block;
+}
+.page-title{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+/*------Author details-------*/
+/*```````````````````````````*/
+
+#authorbox{ background: #e2f2fe;border-top: #0085BE 10px solid;margin-top: 20px;}
+#authorbox .avatar{border-radius: 50px;width:50px;margin-left: 10px;}
+#authorbox h4{margin-left: 60px;margin-top: -50px;font-style: italic;}
+#authorbox p{margin: 0;font-size: 14px;margin-left: 10px;font-style: italic;font-family: 'Open sans',sans-serif;}
